@@ -54,6 +54,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Start */
+:root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --bg-tertiary: #3a3a3a;
+    --text-primary: #e5e5e5;
+    --text-secondary: #b3b3b3;
+    --accent-color: #f4a261;
+    --border-color: #404040;
+}
+
 body {
-    background: linear-gradient(to right, lightblue, lightcoral);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.navigation-container {
+    background-color: var(--bg-secondary);
+}
+
+.navigation-container nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
