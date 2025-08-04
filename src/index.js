@@ -1,6 +1,7 @@
 import "./styles.css";
-import loadHomePage from "./load_home_page";
-import loadMenuPage from "./load_menu_page";
+import loadHomePage from "./home_page";
+import loadMenuPage from "./menu_page";
+import loadAboutPage from "./about_page";
 
 /* 
 Add Event listeners for each button
@@ -30,6 +31,7 @@ function switchTab(tab) {
             loadMenuPage(content);
             break;
         case 'about':
+            loadAboutPage(content);
             break;
         default:
             break;
