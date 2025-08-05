@@ -41,6 +41,6 @@ function switchTab(tab) {
 
 
 // Content container
-
-loadHomePage(content);
+loadMenuPage(content);
+//loadHomePage(content);
 
