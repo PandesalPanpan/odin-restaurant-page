@@ -38,9 +38,6 @@ function switchTab(tab) {
     }
 }
 
-
-
-// Content container
-loadMenuPage(content);
-//loadHomePage(content);
+// Load the home page first
+loadHomePage(content);
 
