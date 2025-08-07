@@ -41,3 +41,8 @@ function switchTab(tab) {
 // Load the home page first
 loadHomePage(content);
 
+if (process.env.NODE_ENV !== 'production') {
+    console.log('We are in development mode!');
+} else {
+    console.log("We are in production");
+}
